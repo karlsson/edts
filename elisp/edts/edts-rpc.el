@@ -35,7 +35,7 @@
 (defvar edts-rpc-suppress-error-codes nil
   "Do not log http errors of requests with these return codes")
 
-(defconst edts-rpc-host "localhost"
+(defconst edts-rpc-host "127.0.0.1"
   "The host where the edts erlang node is running.")
 
 (defconst edts-rpc-port (if (getenv "EDTS_PORT")
